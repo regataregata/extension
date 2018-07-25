@@ -760,7 +760,7 @@ span[data-ddue="token"]:hover {
     border: 1px dashed rgb(0, 108,194);
     cursor: context-menu;
 }
- 
+
 span[data-ddue="token"]:hover.brokentoken {
     border-color: rgba(255,0,0,.6);
 }
