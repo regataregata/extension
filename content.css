@@ -9,18 +9,6 @@ body {
   min-height: 1200px;
 }
 
-/* Required for topic title display. NOTE: Changes to body::before can affect styles dropdown appearance. */
-body::before {
-  display: block;
-  background-color: white;
-  cursor: not-allowed;
-  content: attr(data-topictitle);
-  font-size: 46px;
-  line-height: 56px;
-  font-family: 'wf_segoe-ui_light', 'Segoe UI Light', 'Segoe WP Light',
-    'Segoe UI', Helvetica, Tahoma, Arial, sans-serif;
-}
-
 div[data-ddue='developerConceptualDocument'] {
   background: #ffffff;
   margin: 40px auto;
