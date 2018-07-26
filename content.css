@@ -23,13 +23,6 @@ body:before {
 html {
   min-height: 100%;
   display: block;
-  background: rgb(246, 246, 246);
-  background: radial-gradient(
-    rgb(246, 246, 246) 0%,
-    rgb(246, 246, 246) 59%,
-    rgb(231, 231, 231) 92%,
-    rgb(231, 231, 231) 100%
-  );
 }
 
 body.document-editor {
